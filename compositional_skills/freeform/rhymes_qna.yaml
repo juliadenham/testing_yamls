@@ -1,0 +1,20 @@
+created_by: juliadenham
+version: 2
+seed_examples:
+  - question: What are 5 words that rhyme with horn?
+    answer: warn, torn, born, thorn, and corn.
+  - question: What are four rhyming words for cool?
+    answer: Mule, pool, tool and rule.
+  - question: What are five words that rhyme with cat?
+    answer: bat, gnat, rat, vat, and mat.
+  - question: What is 1 rhyming word for pan?
+    answer: Man
+  - question: What are 5 words that rhyme with poor?
+    answer: door, shore, core, bore, and tore. 
+  - question: What are three rhyming words for meet?
+    answer: Street, Neat, and Beat
+  - question: What are 5 words that rhyme with bank?
+    answer: tank, rank, prank, sank, and drank.
+  - question: What are five words that rhyme with bake?
+    answer: wake, lake, steak, make, and quake.
+task_description: 'Teach the model how to rhyme.'
