@@ -1,0 +1,99 @@
+created_by: derekhiggins
+version: 2
+task_description: Pick a word that matches a description
+seed_examples:
+- question: |
+    What 1 word best describes a huge body of water between continents?
+  answer: Ocean
+- question: What 1 word best describes a feathered animals that can fly?
+  answer: Bird
+- question: |
+    What 1 word best describes a deep affection and strong emotional
+    attachment?
+  answer: Love
+- question: Give word that best describes a sweet and indulgent flavor.
+  answer: Chocolate
+- question: |
+    Name a word that means \"a person who practices or studies
+    medicine\".
+  answer: Doctor
+- question: |
+    What is a word that represents a large, smooth stone that can be
+    used to build a wall?
+  answer: Cobblestone
+- question: |
+    What word best describes a creature with a long neck and a long
+    tail?
+  answer: Brontosaurus
+- question: |
+    Which word is used to describe a small, smooth device that can be
+    worn on the wrist and used to keep track of time?
+  answer: watch
+- question: |
+    What word best describes something that you do when you wake up in the
+    morning to help you feel alert?
+  answer: Shower
+- question: |
+    What word is used to describe a small, furry rodent that likes to collect
+    and hoard food?
+  answer: Squirrel
+- question: |
+    What word best describes something that can be done by playing with or
+    manipulating words?
+  answer: Puzzle
+- question: |
+    What word is used to describe a type of fruit that has a pit or stone in
+    the center?
+  answer: Plum
+- question: |
+    What word best describes a place where people go to relax and enjoy
+    themselves, often near water?
+  answer: Beach
+- question: |
+    What word is used to describe something that is shaped like a long,
+    curved line?
+  answer: Spiral
+- question: |
+    What word best describes someone who is very good at solving problems or
+    finding answers?
+  answer: Detective
+- question: |
+    What word is used to describe a type of tree that has leaves that turn
+    bright colors in the fall?
+  answer: Maple
+- question: |
+    What word best describes something that happens when you mix two or more
+    substances together?
+  answer: Reaction
+- question: |
+    What word is used to describe a type of animal with a long, thin body and
+    no legs?
+  answer: Snake
+- question: |
+    What word best describes someone who helps people by providing advice or
+    guidance?
+  answer: Counselor
+- question: |
+    What word is used to describe a type of building that you might find in
+    an old town?
+  answer: Mansion
+- question: |
+    What word best describes something that happens when the weather becomes
+    very cold and icy?
+  answer: Frost
+- question: |
+    What word is used to describe a type of food that is often eaten for
+    breakfast or as a snack?
+  answer: Toast
+- question: |
+    What word best describes someone who has a strong desire to learn and
+    read new things?
+  answer: Scholar
+- question: |
+    What word is used to describe a type of vehicle that moves along tracks
+    or rails?
+  answer: Train
+- question: |
+    What word best describes something that happens when you combine two or
+    more words together to make a new meaning?
+  answer: Idiom
