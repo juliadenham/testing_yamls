@@ -1,0 +1,155 @@
+created_by: IBM, juliadenham
+version: 2
+seed_examples:
+  - answer: |
+      I have removed all rows that had a vowel in the first initial
+      ```
+      | First Initial | Last Name | Company |
+      | ------------- | --------- | ------- |
+      | b             | jones     | xyz     |
+      | c             | george    | abc     |
+      | d             | hicks     | xyz     |
+      | f             | parker    | abc     |
+      | g             | burn      | xyz     |
+      | h             | talbot    | abc     |
+      ```
+    question: >+
+      Edit the following table to remove everyone whose first initial is a
+      vowel from the following table.
+      ```
+      | First Initial | Last Name  | Company |
+      | ------------- | ---------- | ------- |
+      | a             | smith      | xyz     |
+      | b             | jones      | xyz     |
+      | c             | george     | abc     |
+      | d             | hicks      | xyz     |
+      | e             | long       | abc     |
+      | f             | parker     | abc     |
+      | g             | burn       | xyz     |
+      | h             | talbot     | abc     |
+      | i             | washington | abc     |
+      ```
+  - answer: |
+      ```
+      | First Initial | Last Name  | Email | Company |
+      | ------------- | ---------- | ----- | ------- |
+      | a             | smith      |       | xyz     |
+      | b             | jones      |       | xyz     |
+      | c             | george     |       | abc     |
+      | d             | hicks      |       | xyz     |
+      | e             | long       |       | abc     |
+      | f             | parker     |       | abc     |
+      | g             | burn       |       | xyz     |
+      | h             | talbot     |       | abc     |
+      | i             | washington |       | abc     |
+      ```
+    question: >-
+      Can you please add an empty column labeled Email between last name and
+      company?
+      ```
+      | First Initial | Last Name  | Company |
+      | ------------- | ---------- | ------- |
+      | a             | smith      | xyz     |
+      | b             | jones      | xyz     |
+      | c             | george     | abc     |
+      | d             | hicks      | xyz     |
+      | e             | long       | abc     |
+      | f             | parker     | abc     |
+      | g             | burn       | xyz     |
+      | h             | talbot     | abc     |
+      | i             | washington | abc     |
+      ```
+  - answer: |
+      ```
+      | First Initial | Last Name  | Company |
+      | ------------- | ---------- | ------- |
+      | a             | smith      | xyz     |
+      | b             | jones      | xyz     |
+      | c             | george     | abc     |
+      | d             | hicks      | xyz     |
+      | e             | long       | abc     |
+      | f             | parker     | abc     |
+      | g             | burn       | xyz     |
+      | h             | talbot     | abc     |
+      | i             | washington | abc     |
+      | r             | frank      | xyz     |
+      | p             | parks      | abc     |
+      | t             | higgins    | efg     |
+      | q             | riley      | efg     |
+      ```
+    question: |
+      Can you add the following records to the below table?
+      R Frank from xyz
+      P Parks from abc
+      T Higgins from efg
+      Q Riley from efg
+
+      ```
+      | First Initial | Last Name  | Company |
+      | ------------- | ---------- | ------- |
+      | a             | smith      | xyz     |
+      | b             | jones      | xyz     |
+      | c             | george     | abc     |
+      | d             | hicks      | xyz     |
+      | e             | long       | abc     |
+      | f             | parker     | abc     |
+      | g             | burn       | xyz     |
+      | h             | talbot     | abc     |
+      | i             | washington | abc     |
+      ```
+  - answer: |
+      I have removed all rows that had the last name "hicks" or "smith"
+      ```
+      | First Initial | Last Name  | Company |
+      | ------------- | ---------- | ------- |
+      | b             | jones      | xyz     |
+      | c             | george     | abc     |
+      | e             | long       | abc     |
+      | f             | parker     | abc     |
+      | g             | burn       | xyz     |
+      | h             | talbot     | abc     |
+      | i             | washington | abc     |
+      ```
+    question: >+
+      Edit the following table to remove everyone whose last name is "smith"
+      or "hicks" from the following table
+      ```
+      | First Initial | Last Name  | Company |
+      | ------------- | ---------- | ------- |
+      | a             | smith      | xyz     |
+      | b             | jones      | xyz     |
+      | c             | george     | abc     |
+      | d             | hicks      | xyz     |
+      | e             | long       | abc     |
+      | f             | parker     | abc     |
+      | g             | burn       | xyz     |
+      | h             | talbot     | abc     |
+      | i             | washington | abc     |
+      ```
+  - answer: |
+      I have removed all rows with the company "xyz".
+      ```
+      | First Initial | Last Name  | Company |
+      | ------------- | ---------- | ------- |
+      | c             | george     | abc     |
+      | e             | long       | abc     |
+      | f             | parker     | abc     |
+      | h             | talbot     | abc     |
+      | i             | washington | abc     |
+      ```
+    question: |
+      Given the following table, remove everyone who works at company "xyz".
+      ```
+      | First Initial | Last Name  | Company |
+      | ------------- | ---------- | ------- |
+      | a             | smith      | xyz     |
+      | b             | jones      | xyz     |
+      | c             | george     | abc     |
+      | d             | hicks      | xyz     |
+      | e             | long       | abc     |
+      | f             | parker     | abc     |
+      | g             | burn       | xyz     |
+      | h             | talbot     | abc     |
+      | i             | washington | abc     |
+      ```
+task_description: Teach the model about editing tables by table manipulation.
